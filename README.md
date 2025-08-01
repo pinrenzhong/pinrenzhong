@@ -1,4 +1,10 @@
-## Hi there 👋
+大家好我是聘任中教授，人稱【多方涉略，融會貫通，跨領域結合之集大成者】
+====== 特色 ======
+📖不偷卷 𝑵𝑶 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 𝒔𝒆𝒄𝒓𝒆𝒕𝒍𝒚
+💯不裝弱 𝑵𝑶 𝒑𝒓𝒆𝒕𝒆𝒏𝒅𝒊𝒏𝒈 𝒕𝒐 𝒃𝒆 𝒘𝒆𝒂𝒌
+🦚不炫耀 𝑵𝑶 𝒔𝒉𝒐𝒘𝒊𝒏𝒈 𝒐𝒇𝒇
+👍不吹捧 𝑵𝑶 𝒇𝒍𝒂𝒕𝒕𝒆𝒓𝒊𝒏𝒈
+🤥不說謊 𝑵𝑶 𝒍𝒚𝒊𝒏𝒈
 
 <!--
 **pinrenzhong/pinrenzhong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
