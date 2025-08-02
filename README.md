@@ -1,6 +1,6 @@
 🌟多方涉略，融會貫通，跨領域結合之集大成者
 ‎<br>
-<a href="[https://www.youtube.com/](https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html)">任中的個人資料介紹小天地
+<a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">任中的個人資料介紹小天地
 ====== 特色 ======
 <br>
 📖不偷卷 𝑵𝑶 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 𝒔𝒆𝒄𝒓𝒆𝒕𝒍𝒚
