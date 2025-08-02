@@ -1,6 +1,6 @@
 🌟多方涉略，融會貫通，跨領域結合之集大成者
 ‎<br>
-<a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">任中的個人資料介紹小天地<a>
+聘 任中 教授 的<a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">個人資料介紹小天地<a>
 <br>
 <a href="https://chatgpt.com/">任中聊天室 關心你我生活大小事<a>(頁面帶更新)
 <br>
