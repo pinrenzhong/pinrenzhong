@@ -2,7 +2,7 @@
 ‎<br>
 <a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">任中的個人資料介紹小天地<a>
 <br>
-<a href="">任中聊天室 關心你我生活大小事<a>(頁面帶更新)
+<a href="https://chatgpt.com/">任中聊天室 關心你我生活大小事<a>(頁面帶更新)
 <br>
 ====== 特色 ======
 <br>
