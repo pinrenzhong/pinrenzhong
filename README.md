@@ -2,8 +2,9 @@
 ‎<br>
 聘 任中 教授 的<a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">個人資料介紹小天地<a>
 <br>
-<a href="https://chatgpt.com/">任中聊天室 關心你我生活大小事<a>(頁面帶更新)
+<a href="https://pinrenzhong.github.io/pinrenzhong/%E4%BB%BB%E4%B8%AD%E5%AF%AE%E5%A4%A9%E5%AE%A4.html">任中聊天室 關心你我生活大小事<a>(頁面還在實驗中...)
 <br>
+<a href="">任中教授的虛擬貨幣投資計畫<a>需要大家的的贊助才有經費可以來投資，贊助方式請洽github小編
 ====== 特色 ======
 <br>
 📖不偷卷 𝑵𝑶 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 𝒔𝒆𝒄𝒓𝒆𝒕𝒍𝒚
