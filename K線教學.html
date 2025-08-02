@@ -1,28 +1,90 @@
-<!-- 假設你是 index.html -->
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-  <title>我的網站</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K 線圖教學 - 虛擬貨幣入門</title>
+  <style>
+    body {
+      font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+      line-height: 1.8;
+      background-color: #fdfdfd;
+      color: #222;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      color: #d6336c;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      color: #4a4a4a;
+      margin-top: 2rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .code {
+      background-color: #f3f3f3;
+      padding: 0.5rem;
+      font-family: monospace;
+      display: inline-block;
+      margin-top: 0.3rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>歡迎來到任中教授的研究室</h1>
 
-  
-    <script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js" defer></script>
-<script src="https://files.bpcontent.cloud/2025/08/02/04/20250802045345-J93ZJEIO.js" defer></script>
-    
-  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-  <script>
-    window.botpressWebChat.init({
-      "botId": "your-bot-id",
-      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-      "messagingUrl": "https://messaging.botpress.cloud",
-      "clientId": "your-bot-id",
-      "containerWidth": "400px",
-      "layoutWidth": "100%",
-      "enableTranscriptDownload": false,
-      "showPoweredBy": false
-    });
-  </script>
+  <h1>📊 K 線圖教學</h1>
+
+  <p>K 線圖（Candlestick Chart）是技術分析中最常用的圖表工具，幫助我們判斷市場多空力量與趨勢轉折。</p>
+
+  <h2>🔍 K 線基本結構</h2>
+  <ul>
+    <li><strong>開盤價（Open）</strong>：該時間區間內的第一筆成交價</li>
+    <li><strong>收盤價（Close）</strong>：該時間區間內的最後一筆成交價</li>
+    <li><strong>最高價（High）</strong>：期間內最高成交價</li>
+    <li><strong>最低價（Low）</strong>：期間內最低成交價</li>
+  </ul>
+
+  <p>如果收盤價高於開盤價，K 線為綠色（陽線）；反之則為紅色（陰線）。</p>
+
+  <h2>🧭 常見 K 線型態</h2>
+  <ul>
+    <li><strong>吞噬形態（Engulfing）</strong>：反轉訊號，後一根K線包住前一根</li>
+    <li><strong>十字線（Doji）</strong>：多空拉鋸，轉折可能出現</li>
+    <li><strong>錘頭 / 吊人（Hammer / Hanging Man）</strong>：底部或頭部反轉訊號</li>
+    <li><strong>晨星 / 暮星（Morning / Evening Star）</strong>：三根K線組合形成的反轉訊號</li>
+  </ul>
+
+  <h2>📈 K 線與趨勢的關聯</h2>
+  <ul>
+    <li><strong>連續陽線</strong>：多頭強勢，可視為上漲趨勢延續</li>
+    <li><strong>陰線變長</strong>：空方壓力增加，需小心回調</li>
+    <li><strong>影線過長</strong>：多空劇烈交戰，可能轉折</li>
+  </ul>
+
+  <h2>🧠 K 線判斷技巧</h2>
+  <ul>
+    <li>搭配成交量更有效：價量配合才能確認訊號</li>
+    <li>勿單看一根K線：需觀察整體排列與背景</li>
+    <li>與均線/技術指標搭配更準確</li>
+  </ul>
+
+  <h2>📚 推薦工具</h2>
+  <ul>
+    <li><a href="https://www.tradingview.com/" target="_blank">TradingView</a>：即時 K 線圖與指標平台</li>
+    <li><a href="https://www.investopedia.com/terms/c/candlestick.asp" target="_blank">Investopedia K 線教學</a></li>
+  </ul>
+
+  <h2>📌 小提示</h2>
+  <p class="code">一根K線 = 一段時間的市場情緒濃縮</p>
+  <p class="code">看K線 = 看人心</p>
 
 </body>
 </html>
