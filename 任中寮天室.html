@@ -1,0 +1,25 @@
+<!-- 假設你是 index.html -->
+<html>
+<head>
+  <title>我的網站</title>
+</head>
+<body>
+  <h1>歡迎來到任中教授的研究室</h1>
+
+  <!-- 這裡插入 Botpress 聊天機器人 -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      "botId": "your-bot-id",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "your-bot-id",
+      "containerWidth": "400px",
+      "layoutWidth": "100%",
+      "enableTranscriptDownload": false,
+      "showPoweredBy": false
+    });
+  </script>
+
+</body>
+</html>
