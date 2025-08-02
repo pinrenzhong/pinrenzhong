@@ -18,6 +18,8 @@
 <br>
 聘 任中 教授：
 <br>
+任中教授辦公室：國立清華大學 工科舊館 R402
+<br>
 gmail：pinrenzhong@gmail.com
 <br>
 ig：shihyuan0972
