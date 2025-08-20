@@ -9,7 +9,7 @@
 - 💬 [任中聊天室：關心你我生活大小事](https://pinrenzhong.github.io/pinrenzhong/%E4%BB%BB%E4%B8%AD%E5%AF%AE%E5%A4%A9%E5%AE%A4.html)  
   了解更多任中小知識，立即來嘗試！
 
-- 👶 大一新生看這裡！！  
+- 👶 清大學生看這裡！！  
   擔心剛進入新環境被當作邊緣人？這裡提供 👉 [教授幫你裝一波](https://pinrenzhong.github.io/pinrenzhong/be_famous.html)，讓你成為同學眼中人盡皆知的名人！
 
 - 💰 [任中教授的虛擬貨幣投資計畫](https://pinrenzhong.github.io/pinrenzhong/%E5%8D%80%E5%A1%8A%E9%8D%8A%E4%BB%8B%E7%B4%B9.html)  
