@@ -19,11 +19,11 @@
 
 ## 🗞️ 相關新聞 News
 
-- 【校園震撼彈】教授出馬，誰與爭鋒？清大教授祭出「學術級排面服務」轟動全校！(https://pinrenzhong.github.io/pinrenzhong/%E6%A0%A1%E5%9C%92%E9%9C%87%E6%92%BC%E5%BD%88.html)
+- <a href="https://pinrenzhong.github.io/pinrenzhong/%E6%A0%A1%E5%9C%92%E9%9C%87%E6%92%BC%E5%BD%88.html">【校園震撼彈】教授出馬，誰與爭鋒？清大教授祭出「學術級排面服務」轟動全校！</a>
 
-- 【Breaking News】校園熱點：清華開學驚爆話題　聘任中教授推「學術級排面」惡搞方案(https://pinrenzhong.github.io/pinrenzhong/Breaking%20News.html)
+- <a href="https://pinrenzhong.github.io/pinrenzhong/Breaking%20News.html">【Breaking News】校園熱點：清華開學驚爆話題　聘任中教授推「學術級排面」惡搞方案</a>
 
-- 學長姐Out？清大教授推「學術級裝一波」服務 校園社群瘋狂熱議(https://pinrenzhong.github.io/pinrenzhong/學長姐out.html)
+-<a href="https://pinrenzhong.github.io/pinrenzhong/學長姐out.html"> 學長姐Out？清大教授推「學術級裝一波」服務 校園社群瘋狂熱議</a>
 
 
 
