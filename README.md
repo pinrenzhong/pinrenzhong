@@ -2,7 +2,7 @@
 
 ---
 
-## 📚 教授專區
+## 📚 教授專區 Professor's Corner
 
 - 👉 [聘 任中 教授的個人資料介紹小天地](https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html)
 
