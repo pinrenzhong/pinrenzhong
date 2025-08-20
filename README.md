@@ -3,7 +3,9 @@
 ‎<br>
 聘 任中 教授 的<a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">個人資料介紹小天地<a>
 <br>
-<a href="https://pinrenzhong.github.io/pinrenzhong/%E4%BB%BB%E4%B8%AD%E5%AF%AE%E5%A4%A9%E5%AE%A4.html">任中聊天室 關心你我生活大小事<a>(頁面還在實驗中...)
+<a href="https://pinrenzhong.github.io/pinrenzhong/%E4%BB%BB%E4%B8%AD%E5%AF%AE%E5%A4%A9%E5%AE%A4.html">任中聊天室 關心你我生活大小事<a>，了解更多任中小知識，立即來嘗試~~
+<br>
+大一新生看這裡！！擔心剛進入新環境被當作邊緣人？這裡提供<a href="https://pinrenzhong.github.io/pinrenzhong/be_famous.html">教授幫你裝一波<a>，讓你成為同學眼中人盡皆知的名人！！
 <br>
 <a href="https://pinrenzhong.github.io/pinrenzhong/%E5%8D%80%E5%A1%8A%E9%8D%8A%E4%BB%8B%E7%B4%B9.html">任中教授的虛擬貨幣投資計畫<a>頁面尚無具體計畫，需要大家的的贊助才有經費可以來投資，贊助方式請洽github小編
 <br>
