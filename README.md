@@ -1,72 +1,89 @@
-🌟多方涉略，融會貫通，跨領域結合之集大成者
-‎<br>
-‎<br>
-聘 任中 教授 的<a href="https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html">個人資料介紹小天地<a>
-<br>
-<a href="https://pinrenzhong.github.io/pinrenzhong/%E4%BB%BB%E4%B8%AD%E5%AF%AE%E5%A4%A9%E5%AE%A4.html">任中聊天室 關心你我生活大小事<a>，了解更多任中小知識，立即來嘗試~~
-<br>
-大一新生看這裡！！擔心剛進入新環境被當作邊緣人？這裡提供<a href="https://pinrenzhong.github.io/pinrenzhong/be_famous.html">教授幫你裝一波<a>，讓你成為同學眼中人盡皆知的名人！！
-<br>
-<a href="https://pinrenzhong.github.io/pinrenzhong/%E5%8D%80%E5%A1%8A%E9%8D%8A%E4%BB%8B%E7%B4%B9.html">任中教授的虛擬貨幣投資計畫<a>頁面尚無具體計畫，需要大家的的贊助才有經費可以來投資，贊助方式請洽github小編
-<br>
-<br>
-<br>
-====== 特色 ======
-<br>
-📖不偷卷 𝑵𝑶 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 𝒔𝒆𝒄𝒓𝒆𝒕𝒍𝒚
-<br>
-💯不裝弱 𝑵𝑶 𝒑𝒓𝒆𝒕𝒆𝒏𝒅𝒊𝒏𝒈 𝒕𝒐 𝒃𝒆 𝒘𝒆𝒂𝒌
-<br>
-🦚不炫耀 𝑵𝑶 𝒔𝒉𝒐𝒘𝒊𝒏𝒈 𝒐𝒇𝒇
-<br>
-👍不吹捧 𝑵𝑶 𝒇𝒍𝒂𝒕𝒕𝒆𝒓𝒊𝒏𝒈
-<br>
-🤥不說謊 𝑵𝑶 𝒍𝒚𝒊𝒏𝒈
-<br>
-<br>
-聯絡資訊：
-<br>
-聘 任中 教授：
-<br>
-任中教授辦公室：國立清華大學 工科舊館 R402
-<br>
-gmail：pinrenzhong@gmail.com
-<br>
-ig：shihyuan0972
-<br>
-其他問題請洽 任中教授的github帳號小編：
-<br>
-gmail：alexlin94422@gmail.com
-<br>
-ig：linnn3008
-<br>
-<br>
-==========================================================
-<br>
-🌟 A Master of Cross-Disciplinary Integration, with Extensive Knowledge and Deep Synthesis Across Fields
-<br>
-====== Features ======
-<br>
-📖 No Secret Studying – 𝑵𝑶 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 𝒔𝒆𝒄𝒓𝒆𝒕𝒍𝒚
-<br>
-💯 No Pretending to Be Weak – 𝑵𝑶 𝒑𝒓𝒆𝒕𝒆𝒏𝒅𝒊𝒏𝒈 𝒕𝒐 𝒃𝒆 𝒘𝒆𝒂𝒌
-<br>
-🦚 No Showing Off – 𝑵𝑶 𝒔𝒉𝒐𝒘𝒊𝒏𝒈 𝒐𝒇𝒇
-<br>
-👍 No Flattering – 𝑵𝑶 𝒇𝒍𝒂𝒕𝒕𝒆𝒓𝒊𝒏𝒈
-<br>
-🤥 No Lying – 𝑵𝑶 𝒍𝒚𝒊𝒏𝒈
-<br>
-Contact Information:
-<br>
-Prof. Pin Ren Zhong
-<br>
-📧 Gmail: pinrenzhong@gmail.com
-<br>
-📸 Instagram: shihyuan0972
-<br>
-For other inquiries, please contact the admin of Prof. Ren Zhong’s GitHub account:
-<br>
-📧 Gmail: alexlin94422@gmail.com
-<br>
-📸 Instagram: linnn3008
+<p align="center">
+  <img src="https://pinrenzhong.github.io/pinrenzhong/465208622_790666469811737_8696983118792587124_n.jpg" alt="聘任中教授" width="180" style="border-radius:50%; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+</p>
+
+<h1 align="center">聘任中 教授</h1>
+<p align="center"><em>多方涉略，融會貫通 —— 跨領域集大成者</em></p>
+
+<p align="center">
+  <a href="https://pinrenzhong.github.io/pinrenzhong/"><img src="https://img.shields.io/badge/Profile-Personal%20Page-blue?logo=github" alt="GitHub Pages"/></a>
+  <a href="mailto:pinrenzhong@gmail.com"><img src="https://img.shields.io/badge/Contact-Gmail-red?logo=gmail" alt="Email"/></a>
+  <a href="https://instagram.com/shihyuan0972"><img src="https://img.shields.io/badge/Instagram-Follow-pink?logo=instagram" alt="Instagram"/></a>
+</p>
+
+---
+
+##  目錄 (Table of Contents)
+
+- [快速導覽](#-快速導覽)
+- [特色（Features）](#-特色features)
+- [聯絡資訊](#-聯絡資訊)
+- [English Version (點擊展開)](#english-version-click-to-expand)
+
+---
+
+##  快速導覽
+
+- 🧑‍🏫 [個人資料介紹小天地](https://pinrenzhong.github.io/pinrenzhong/person%20introduce.html)  
+- 💬 [任中聊天室｜生活分享與互動](https://pinrenzhong.github.io/pinrenzhong/%E4%BB%BB%E4%B8%AD%E5%AF%AE%E5%A4%A9%E5%AE%A4.html)  
+- ⭐ 大一新生專屬企劃－[教授幫你裝一波](https://pinrenzhong.github.io/pinrenzhong/be_famous.html)  
+- ₿ [教授的虛擬貨幣計畫](https://pinrenzhong.github.io/pinrenzhong/%E5%8D%80%E5%A1%8A%E9%8D%8A%E4%BB%8B%E7%B4%B9.html) （歡迎贊助支援）
+
+---
+
+##  特色（Features）
+
+| 原則     | 描述                  |
+|----------|-----------------------|
+| 📖 不偷卷     | NO studying secretly    |
+| 💯 不裝弱     | NO pretending to be weak |
+| 🦚 不炫耀     | NO showing off          |
+| 👍 不吹捧     | NO flattering           |
+| 🤥 不說謊     | NO lying                |
+
+---
+
+##  聯絡資訊
+
+**聘任中 教授**
+- 🏢 辦公室：國立清華大學 工科舊館 R402  
+- ✉️ Gmail：`pinrenzhong@gmail.com`  
+- 📸 Instagram：`shihyuan0972`
+
+**聯絡小編（GitHub 管理）**  
+- ✉️ Gmail：`alexlin94422@gmail.com`  
+- 📸 Instagram：`linnn3008`
+
+---
+
+<details>
+<summary><strong>English Version (click to expand)</strong></summary>
+
+### A Master of Cross-Disciplinary Integration
+
+> Open, hands-on, and integrative—bridging teaching, research, and community.
+
+#### Quick Links
+- Profile — Prof. Pin Ren Zhong  
+- Chat Room — Learn more, have fun!  
+- Freshman? Try the “Make You Famous” Project!  
+- Crypto Investment Page — Sponsorship welcome.
+
+#### Features
+- No Secret Studying  
+- No Pretending to Be Weak  
+- No Showing Off  
+- No Flattering  
+- No Lying  
+
+#### Contact
+**Prof. Pin Ren Zhong**
+- Gmail: `pinrenzhong@gmail.com`  
+- Instagram: `shihyuan0972`
+
+**Admin (GitHub)**
+- Gmail: `alexlin94422@gmail.com`  
+- Instagram: `linnn3008`
+
+</details>
+
