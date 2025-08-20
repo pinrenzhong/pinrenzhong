@@ -41,3 +41,5 @@
 ---
 
 > 🌟 *A Master of Cross-Disciplinary Integration, with Extensive Knowledge and Deep Synthesis Across Fields*
+
+<br> ========================================================== <br> 🌟 A Master of Cross-Disciplinary Integration, with Extensive Knowledge and Deep Synthesis Across Fields <br> ====== Features ====== <br> 📖 No Secret Studying – 𝑵𝑶 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 𝒔𝒆𝒄𝒓𝒆𝒕𝒍𝒚 <br> 💯 No Pretending to Be Weak – 𝑵𝑶 𝒑𝒓𝒆𝒕𝒆𝒏𝒅𝒊𝒏𝒈 𝒕𝒐 𝒃𝒆 𝒘𝒆𝒂𝒌 <br> 🦚 No Showing Off – 𝑵𝑶 𝒔𝒉𝒐𝒘𝒊𝒏𝒈 𝒐𝒇𝒇 <br> 👍 No Flattering – 𝑵𝑶 𝒇𝒍𝒂𝒕𝒕𝒆𝒓𝒊𝒏𝒈 <br> 🤥 No Lying – 𝑵𝑶 𝒍𝒚𝒊𝒏𝒈 <br> Contact Information: <br> Prof. Pin Ren Zhong <br> 📧 Gmail: pinrenzhong@gmail.com <br> 📸 Instagram: shihyuan0972 <br> For other inquiries, please contact the admin of Prof. Ren Zhong’s GitHub account: <br> 📧 Gmail: alexlin94422@gmail.com <br> 📸 Instagram: linnn3008
