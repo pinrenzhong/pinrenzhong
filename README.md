@@ -23,7 +23,7 @@
 
 - 【Breaking News】校園熱點：清華開學驚爆話題　聘任中教授推「學術級排面」惡搞方案(https://pinrenzhong.github.io/pinrenzhong/Breaking%20News.html)
 
-- 學長姐Out？清大教授推「學術級裝一波」服務 校園社群瘋狂熱議
+- 學長姐Out？清大教授推「學術級裝一波」服務 校園社群瘋狂熱議(https://pinrenzhong.github.io/pinrenzhong/學長姐out.html)
 
 
 
