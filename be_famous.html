@@ -1,220 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>「教授幫同學裝一波」— 聘任中教授特別企劃</title>
-<style>
-  :root{
-    --bg:#0f1221;
-    --card:#161a2f;
-    --muted:#aab2cf;
-    --accent:#7c96ff;
-    --accent-2:#ffd166;
-    --success:#30d158;
-    --danger:#ff5e57;
-    --border:rgba(255,255,255,.12);
-    --text:#e9ecff;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;background:radial-gradient(1200px 700px at 20% -10%,#2a2f55 0%,transparent 50%), radial-gradient(900px 600px at 120% 20%,#293b8a 0%,transparent 55%), var(--bg); color:var(--text); font-family: "Noto Sans TC", "Segoe UI", system-ui, -apple-system, Arial, sans-serif; line-height:1.7}
-  a{color:var(--accent)} a:hover{opacity:.9}
-  .wrap{max-width:1100px; margin:auto; padding:36px 20px 80px}
-  .hero{
-    position:relative; padding:28px 24px; border:1px solid var(--border);
-    background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-    border-radius:20px; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,.25)
-  }
-  .badge{display:inline-block; font-size:.82rem; letter-spacing:.08em; padding:6px 10px; border-radius:999px; background:rgba(124,150,255,.15); color:var(--accent); border:1px solid rgba(124,150,255,.35)}
-  h1{font-size:clamp(1.6rem, 2.5vw + 1rem, 2.5rem); margin:.4em 0 .2em; line-height:1.25}
-  .sub{color:var(--muted); margin:0 0 6px}
-  .lead{font-size:1.05rem; margin-top:10px}
-  .divider{height:1px; background:var(--border); margin:28px 0}
-  h2{font-size:1.35rem; margin:1.2em 0 .4em; letter-spacing:.02em}
-  h3{font-size:1.05rem; margin:1em 0 .25em; color:#d6dbff}
-  p{margin:.6em 0}
-  .grid{display:grid; gap:14px}
-  @media (min-width:720px){ .grid.cols-2{grid-template-columns:1fr 1fr} }
-  @media (min-width:980px){ .grid.cols-3{grid-template-columns:repeat(3,1fr)} }
-  .card{
-    background:var(--card); border:1px solid var(--border); border-radius:16px; padding:18px;
-    box-shadow:0 8px 28px rgba(0,0,0,.25)
-  }
-  .price{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-  .pill{padding:4px 10px; border-radius:999px; border:1px solid var(--border); font-size:.9rem; color:var(--muted); background:rgba(255,255,255,.03)}
-  .note{font-size:.92rem; color:var(--muted)}
-  .hint{font-size:.9rem; color:#cfd6ff; background:rgba(255,255,255,.04); border:1px dashed var(--border); padding:10px; border-radius:10px; margin-top:10px}
-  .list{margin:.4em 0; padding-left:1.25em}
-  .list li{margin:.35em 0}
-  .tagline{font-weight:700; color:var(--accent-2)}
-  .footer{
-    margin-top:28px; padding:16px; font-size:.92rem; color:var(--muted);
-    border-top:1px solid var(--border); text-align:center
-  }
-  .title-row{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
-  .num{font-weight:800; color:var(--accent-2); background:rgba(255,209,102,.15); border:1px solid rgba(255,209,102,.45); padding:2px 8px; border-radius:999px; font-size:.95rem}
-  .highlight{color:var(--success)}
-  .warn{color:var(--danger)}
-</style>
+  <meta charset="UTF-8">
+  <title>教授專區｜聘任中教授的裝一波服務</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      line-height: 1.8;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #fafafa;
+    }
+    h1 {
+      color: #7b1fa2;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .section {
+      margin: 20px 0;
+      padding: 15px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #444;
+      margin-top: 0;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: right;
+      font-style: italic;
+      color: #555;
+    }
+    .share {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .share a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 16px;
+      border-radius: 30px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .fb { background: #3b5998; }
+    .line { background: #00c300; }
+    .threads { background: #000; }
+    .share a:hover { opacity: 0.8; }
+.hero-img{width:100%;border-radius:8px;margin:12px 0}
+  </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="hero">
-      <span class="badge">震撼公告</span>
-      <h1>「學長姐不夠看？」聘任中教授現身清大——一波操作轟動校園！</h1>
-      <p class="sub">清華大學 · 校園傳說等級企劃 · 限時上線</p>
-      <p class="lead">
-        Threads 各校瘋傳的「學長姐幫新生裝一波」已成風潮，但清大一直缺乏突破。任中教授聽見同學呼聲，
-        破天荒推出前所未有的 <span class="tagline">「教授幫同學裝一波」</span> 服務：不只加分拉人氣，更要讓校園感受空前震撼。歷史，從此刻開始記錄。
-      </p>
-      <div class="divider"></div>
-      <div class="grid cols-2">
-        <div class="card">
-          <h2>為什麼是教授出手？</h2>
-          <ul class="list">
-            <li>學術級排面：<span class="highlight">教授背書</span> 的社交聲量，直接拉滿。</li>
-            <li>戲劇性登場：課內課外多場景客製化演出。</li>
-            <li>可鹽可甜：從學霸人設到國際舞台，一條龍安排。</li>
-          </ul>
-          <p class="note">價格以「<b>有／無追蹤懸缺實驗室 IG</b>」分級，請自行斟酌。</p>
-        </div>
-        <div class="card">
-          <h2>快速總覽</h2>
-          <ul class="list">
-            <li>課堂定錨：名門弟子、學霸地位、大佬式發問。</li>
-            <li>形象經營：深夜科研、紅布條應援、論文尬聊。</li>
-            <li>高能彩蛋：系務會議封神、校務簡報曝光、首頁一小時超新星。</li>
-          </ul>
-          <p class="hint">教授的面子昂貴，但效果保證高端專業！</p>
-        </div>
-      </div>
-    </section>
+  <h1>「學長姐不夠看？」聘任中教授現身清大　一波操作轟動校園！</h1>
 
-    <section class="section">
-      <h2>課內光環 · 立刻封頂</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <div class="title-row"><span class="num">1.1</span><h3>名門弟子認證</h3></div>
-          <p>開課進教室時，教授主動遞上你自備食物/飲料並宣布：「這位xxx同學是我的得意門生！」全班即刻記住你。</p>
-          <div class="price"><span class="pill">每次 0 / 100 元</span><span class="pill">食物飲料自備</span></div>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">1.2</span><h3>建立學霸地位</h3></div>
-          <p>講解難題時教授「卡關」，你舉手給出 <b>事先提供的正解</b>。教授拍桌讚嘆並請同學向你請益。</p>
-          <div class="price"><span class="pill">每次 150 / 250 元</span></div>
-          <p class="hint">記得背熟、自然，露出一點「低調的傲氣」。</p>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">1.3</span><h3>大佬式發問</h3></div>
-          <p>課末你拋出 <b>高專業度問題</b>（題目會提前給），教授愣三秒後說要回去與大佬討論，並請大家對你刮目相看。</p>
-          <div class="price"><span class="pill">每次 400 / 500 元</span></div>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">1.4</span><h3>國際研討會幻影榮耀</h3></div>
-          <p>你上課故意遲到，進入教室時，教授會高喊：「這位xxx同學剛被 <b>IEEE 邀請 Keynote</b>！大家要向他看齊喔！」全場震撼。</p>
-          <div class="price"><span class="pill">每次 1900 / 2000 元</span></div>
-        </div>
-      </div>
-    </section>
+  <div class="section">
+    <p>【震撼公告】Threads上各校瘋傳的「學長姐幫新生裝一波」服務早已蔚為風潮，但清華一直缺乏突破。經過數日深思以及聽到同學們的熱切呼聲，任中破天荒放下身段，以教授身份親自上陣，推出前所未有的「教授幫同學裝一波」服務！這一次，不只是幫你加分、提升人氣，更要讓整個校園都感受到空前的震撼。歷史將為我們記錄這一刻！</p>
+  </div>
 
-    <section class="section">
-      <h2>人設養成 · 全時帶風向</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <div class="title-row"><span class="num">2</span><h3>深夜科研人設</h3></div>
-          <p>教授在實驗室製造「科研音效」並限動 tag 你：#拼到天亮！</p>
-          <div class="price"><span class="pill">每次 0 / 100 元</span></div>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">3</span><h3>大考特別關照</h3></div>
-          <p>期中/期末巡視時拍你肩：「這位XXX同學臨場反應一流，肯定考高分，你們不用想調分了！」然後轉身就走。</p>
-          <div class="price"><span class="pill">每次 400 / 500 元</span></div>
-          <p class="hint warn">若沒把握考高分，慎用，否則會很尷尬。</p>
-        </div>
-      </div>
-    </section>
+  <div class="section">
+    <p>快開學啦！清大同學想要裝一波、驚艷全場嗎？<br>
+    學長姐只能幫你製造八卦，教授出手才是真正的「學術級排面」！<br>
+    價格均為【有/無追蹤懸缺實驗室IG】，自行斟酌！<br>
+    教授的面子昂貴，但效果保證高端專業！</p>
+  </div>
+<img class="hero-img" src="https://pinrenzhong.github.io/pinrenzhong/轟動校園.jpg" alt="教授轟動校園是意圖">
 
-    <section class="section">
-      <h2>走廊戲劇 · 社交聲量爆表</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <div class="title-row"><span class="num">4.1</span><h3>教授認證挖角</h3></div>
-          <p>在人潮最多的中堂下課時段，任中會故意在走廊偶遇你並高喊「你就是XX系大X的XXX對吧？你上學期GPA 4.3、T分數67？我誠摯地邀請你加入我們實驗室！」</p>
-          <div class="price"><span class="pill">每次 900 / 1000 元</span></div>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">4.2</span><h3>拒絕教授的勇氣</h3></div>
-          <p>承上，你可選擇 <b>霸氣轉身</b> 或 <b>打巴掌叫教授走開</b>（真的很貴）。</p>
-          <div class="price"><span class="pill">加價 900 / 1000 元</span><span class="pill">或 3900 / 4000 元</span></div>
-          <p class="note">越狠越貴，教授的臉皮需要修復。</p>
-        </div>
-      </div>
-    </section>
+  <div class="section">
+    <h2>1.1 名門弟子認證</h2>
+    <p>上課剛進教室時，任中會主動遞食物或飲料給你，在全班面前微笑宣布「這位同學是我的得意門生，請大家好好對待他！」【每次0/100元，食物飲料須自備】</p>
+  </div>
 
-    <section class="section">
-      <h2>公共場合 · 聲望拉滿</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <div class="title-row"><span class="num">5</span><h3>紅布條專題應援</h3></div>
-          <p>午餐時間任中在小吃部門口高舉紅布條一小時，上面寫「狂賀！XX系大X的XXX專題成功模擬出OOOOO」並拿大聲公宣傳。</p>
-          <div class="price"><span class="pill">每次 2800 / 3000 元</span><span class="pill">紅布條自備</span></div>
-          <p class="hint">OOOOO請自填；選一個你從沒想過的題目，效果更炸。</p>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">6.1</span><h3>論文即興尬聊</h3></div>
-          <p>在人潮眾多的地方（你指定）任中故意跟你大聲聊起「對啊！你那篇在Nature被審稿拖一年真的很扯欸！」讓周遭的人用神秘眼神看你，誤以為你是國際期刊常客。</p>
-          <div class="price"><span class="pill">每次 900 / 1000 元</span></div>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">6.2</span><h3>學術圈朋友圈曝光</h3></div>
-          <p>現場「國際電話」：<i>Would you consider INVITING HIM TO THE NEXT CONFERENCE?</i></p>
-          <div class="price"><span class="pill">每次 1400 / 1500 元</span></div>
-          <p class="hint">請同步擺出「我真的很謙虛」的表情。</p>
-        </div>
-      </div>
-    </section>
+  <div class="section">
+    <h2>1.2 建立學霸地位</h2>
+    <p>上課講解難題時，途中任中會故意卡住，暗示你舉手講解「正確解法」。你講完後教授會當場拍桌說「完全正確！這位同學太聰明了，報上名字，大家有問題可以問他！」讓你瞬間在班上建立學霸地位。【每次150/250元】<br>
+    小叮嚀：正確解法會事先給你，記得背熟，講得自然，最好露出一點「低調的傲氣」。</p>
+  </div>
 
-    <section class="section">
-      <h2>神級彩蛋 · 校級舞台加冕</h2>
-      <div class="grid cols-3">
-        <div class="card">
-          <div class="title-row"><span class="num">7.1</span><h3>系務會議封神（人限：3）</h3></div>
-          <p>正式請你進會議室，公開表揚 3 分鐘，全體教授鼓掌；全程錄影（工具自備）。</p>
-          <div class="price"><span class="pill">每次 4900 / 5000 元</span></div>
-          <p class="hint">會先告知教授們這是「學生表演計畫」，並以高級餐點確保大家邊吃邊看戲。</p>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">7.2</span><h3>校務簡報榮耀曝光（人限：2）</h3></div>
-          <p>全校行政會議簡報中嵌入你的「隱藏彩蛋/重點案例」，並且在正式簡報時用莊嚴口氣介紹「這位同學是我們的代表性人物」，全場行政主管都會瞬間知道你的存在。會幫你全程錄影供你炫耀。</p>
-          <div class="price"><span class="pill">每次 9900 / 10000 元</span></div>
-          <p class="hint">會同步向行政主管說明為「學生展示企劃」，名字/照片可能出現在經費數字或評鑑指標旁——突兀即顯眼。</p>
-        </div>
-        <div class="card">
-          <div class="title-row"><span class="num">7.3</span><h3>壓箱寶：官網一小時超級明星（人限：1）</h3></div>
-          <p>任中會在學校官網首頁安排你的照片、由任中編寫的「學術傳奇專題成果」或學術事蹟作為一小時的「清華官方偶像」，搭配文字介紹，全校師生、家長、未來申請者都會短暫地看見你，彷彿全校都在膜拜你的學術神格。會幫你完整截圖留作炫耀。</p>
-          <div class="price"><span class="pill">每次 19900 / 20000 元</span></div>
-          <p class="hint">以「校園明星養成實驗」名義協調，正式且高端，曝光極致。</p>
-        </div>
-      </div>
-    </section>
+  <div class="section">
+    <h2>1.3 大佬式發問</h2>
+    <p>類似1.2。課堂結尾任中問「有沒有問題」時，讓你舉手問一個和課程有關而且極度專業、專有名詞滿滿的問題。教授會愣三秒，然後說「這問題太有深度了！我要回去跟大佬討論一下，下次再答覆你！報上名字讓大家對你刮目相看！」【每次400/500元】<br>
+    小叮嚀：任中會提前給你問題，務必表現自信，像真的讀過好幾篇論文才想到的！</p>
+  </div>
 
-    <section class="section">
-      <h2>最後想說 · 別太認真，開心開學</h2>
-      <div class="card">
-        <p>
-          開學將至，情緒也許不美麗；看完這篇或許「驚到下巴掉地板」。沒關係——這些是任中改編設計的
-          「<b>前所未有震撼感體驗</b>」。人生需要一點浮誇與笑料，當作開學前暖身秀就好。
-        </p>
-        <p class="highlight">笑一笑、甩甩肩，帶著好心情走入新學期。你，不用靠任何人裝逼，也能很強。</p>
-        <p class="note">Don't worry, be happy～</p>
-        <p style="margin-top:8px">— 聘任中 教授</p>
-      </div>
-    </section>
+  <div class="section">
+    <h2>1.4 國際研討會幻影榮耀</h2>
+    <p>你上課故意遲到，然後從前門進教室。任中會在你走進教室時高喊「各位注意！這就是上個月被 IEEE邀請去keynote的同學！大家要向他看齊！」【每次1900/2000元】</p>
+  </div>
 
-    <footer class="footer">
-      © 2025 清華大學 · 企劃由任中教授友情提供 · 本頁面為趣味創意用途，請勿過度對號入座。
-    </footer>
-  </main>
+  <div class="section">
+    <h2>2. 深夜科研人設</h2>
+    <p>凌晨任中在實驗室幫你製造「科研音效」（敲桌、拖椅、翻書），同時發限動tag你：#拼到天亮！【每次0/100元】</p>
+  </div>
+
+  <div class="section">
+    <h2>3. 大考特地關照</h2>
+    <p>期中/期末考巡視時，任中會走到你旁邊，忽然拍你的肩膀說「這位XXX同學臨場反應一流，肯定考高分，你們不用想調分了！」然後轉身就走。【每次400/500元】<br>
+    小叮嚀：沒把握就不要使用此服務，到時候大家一定會看你考幾分，考差會顯得很尷尬。</p>
+  </div>
+
+  <div class="section">
+    <h2>4.1 教授認證挖角</h2>
+    <p>在人潮最多的中堂下課時段，任中會故意在走廊偶遇你並高喊「你就是XX系大X的XXX對吧？你上學期GPA 4.3、T分數67？我誠摯地邀請你加入我們實驗室！」【每次900/1000元】</p>
+  </div>
+
+  <div class="section">
+    <h2>4.2 向教授SAY NO的勇氣</h2>
+    <p>承上，你可以霸氣轉頭離開【加價900/1000元】<br>
+    你也可以打巴掌叫任中滾開【加價3800/4000元】<br>
+    小叮嚀：越狠的戲碼越貴，因為教授的臉皮需要修復。</p>
+  </div>
+
+  <div class="section">
+    <h2>5. 紅布條專題應援</h2>
+    <p>午餐時間任中在小吃部門口高舉紅布條一小時，上面寫「狂賀！XX系大X的XXX專題成功模擬出OOOOO」並拿大聲公宣傳。【每次2800/3000元，紅布條須自備】<br>
+    小叮嚀：OOOOO請自行填入。建議選一個你根本沒想過的專題，震撼效果最佳！</p>
+  </div>
+
+  <div class="section">
+    <h2>6.1 論文即興尬聊</h2>
+    <p>在人潮眾多的地方（你指定）任中故意跟你大聲聊起「對啊！你那篇在Nature被審稿拖一年真的很扯欸！」讓周遭的人用神秘眼神看你，誤以為你是國際期刊常客。【每次900/1000元】</p>
+  </div>
+
+  <div class="section">
+    <h2>6.2 學術界朋友圈曝光</h2>
+    <p>在人潮眾多的地方（你指定）任中用很大的聲音打國際電話（假裝在跟某頂尖學者對話但聽不清楚），內容是 “Yes, I have a student named XXX who's full of potential. Would you consider INVITING HIM/HER TO THE NEXT CONFERENCE?” 【每次1400/1500元】<br>
+    小叮嚀：建議你同時擺出「我真的很謙虛」的表情。</p>
+  </div>
+
+  <div class="section">
+    <h2>7.1 系務會議封神（人限：3）</h2>
+    <p>系務會議進行到一半，任中會正式把你請進會議室，並公開表揚你、說你好話三分鐘，並請所有教授主動幫你鼓掌！會幫你全程錄影供你炫耀。【每次4750/5000元，錄影工具須自備】<br>
+    小叮嚀：任中不會騙其他教授，會先告訴他們這是「學生表演計畫」，你可能其實沒那麼棒。你繳的錢任中會拿去買高級餐點，讓其他教授邊吃邊看戲，確保「你開心、教授們也開心」，皆大歡喜！</p>
+  </div>
+
+  <div class="section">
+    <h2>7.2 校務簡報榮耀曝光（人限：2）</h2>
+    <p>在全校行政會議或大型校務簡報上，任中會特別把你安排進投影片，以「隱藏彩蛋」或「重點案例」的方式出現，並且在正式簡報時用莊嚴口氣介紹「這位同學是我們的代表性人物」，全場行政主管都會瞬間知道你的存在。會幫你全程錄影供你炫耀。【每次9500/10000元，錄影工具及照片事蹟須自備】<br>
+    小叮嚀：任中不會騙行政主管，會先告訴他們這是「學生展示企劃」，然後付一些錢拜託他們配合演出。你的名字和照片可能會被放在一堆經費數字、評鑑指標或長官指示旁邊，雖然有點突兀，但正因為突兀，反而特別顯眼。</p>
+  </div>
+
+  <div class="section">
+    <h2>7.3 【壓箱寶】學校官網一小時超級明星（人限：1）</h2>
+    <p>任中會在學校官網首頁安排你的照片、由任中編寫的「學術傳奇專題成果」或學術事蹟作為一小時的「清華官方偶像」，搭配文字介紹，全校師生、家長、未來申請者都會短暫地看見你，彷彿全校都在膜拜你的學術神格。會幫你完整截圖留作炫耀。【每次19000/20000元，照片與文字介紹須自備】<br>
+    小叮嚀：任中不會騙校方，會先告訴他們這是「校園明星養成實驗」，並給予鉅額小費讓他們配合，效果正式又高端。你的名字或照片應該會出現在校園公告或首頁大圖旁邊，雖然有點突兀，但正因為突兀，反而特別顯眼。</p>
+  </div>
+
+  <div class="section">
+    <p>各位親愛的老手們！開學將至，可能心情很破防、可能看完這篇文章有點「驚到下巴掉地板」，沒關係～這些都是任中改編設計的「前所未有震撼感體驗」啦！人生本來就要帶點浮誇、帶點笑料，有時別太認真，把它當作開學前的暖身秀就好。笑一笑，甩甩肩，帶著好心情走進新學期，祝大家開學順利、學業順心，不用靠學長姐或教授裝逼就很厲害了啦！Don't worry, be happy～</p>
+  </div>
+
+  <div class="footer">
+    <p>聘任中 教授</p>
+  </div>
+<div class="share">
+    <p>📢 分享給好友：</p>
+    <a class="fb" href="https://www.facebook.com/sharer/sharer.php?u=https://pinrenzhong.github.io/pinrenzhong/be_famous.html" target="_blank">Facebook</a>
+    <a class="line" href="https://social-plugins.line.me/lineit/share?url=https://pinrenzhong.github.io/pinrenzhong/be_famous.html" target="_blank">LINE</a>
+    <a class="threads" href="https://www.threads.net/intent/post?text=快來看教授幫同學裝一波！&url=https://pinrenzhong.github.io/pinrenzhong/be_famous.html" target="_blank">Threads</a>
+  </div>
 </body>
 </html>
-
