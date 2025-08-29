@@ -44,17 +44,25 @@
   }
   .bingo-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
   .bingo-title h2{font-size:1.2rem;margin:0}
+  
+  /* 🔥 新增：RWD 支援捲動 */
   .board-wrapper {
-  overflow-x: auto;                 /* 超過螢幕就橫向滑動 */
-  -webkit-overflow-scrolling: touch; /* iOS 平滑滑動 */
-}
+    overflow-x: auto;     
+    -webkit-overflow-scrolling: touch;
+  }
 
-.board {
-  display: grid;
-  grid-template-columns: repeat(4, 150px); /* 固定每格寬度 */
-  gap: 10px;
-  width: max-content;               /* 保證寬度會超過螢幕 */
-}
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 預設：電腦螢幕 4 等分 */
+    gap: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .board {
+      grid-template-columns: repeat(4, 160px); /* 手機直立：固定格子寬度 */
+      width: max-content;  /* 讓總寬度 > 螢幕，才會出現橫向捲軸 */
+    }
+  }
 
   .cell{
     position:relative;background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
@@ -84,11 +92,9 @@
   h2{font-size:1.15rem;margin:1.2em 0 .5em}
   ul{margin:.3em 0 .8em;padding-left:1.1em}
   .footer{margin-top:28px;padding:16px;font-size:.92rem;color:var(--muted);text-align:center;border-top:1px solid var(--border)}
-
-
-
 </style>
 </head>
+
 <body>
   <main class="wrap">
     <section class="hero">
@@ -337,6 +343,7 @@
 </script>
 </body>
 </html>
+
 
 
 
