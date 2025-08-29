@@ -44,9 +44,18 @@
   }
   .bingo-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
   .bingo-title h2{font-size:1.2rem;margin:0}
-  .board{
-    display:grid;grid-template-columns:repeat(4,1fr);gap:10px
-  }
+  .board-wrapper {
+  overflow-x: auto;                 /* 超過螢幕就橫向滑動 */
+  -webkit-overflow-scrolling: touch; /* iOS 平滑滑動 */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 160px); /* 固定每格寬度 */
+  gap: 10px;
+  width: max-content;               /* 保證寬度會超過螢幕 */
+}
+
   .cell{
     position:relative;background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
     border:1px solid var(--border);border-radius:12px;padding:12px;min-height:96px;
@@ -75,18 +84,7 @@
   h2{font-size:1.15rem;margin:1.2em 0 .5em}
   ul{margin:.3em 0 .8em;padding-left:1.1em}
   .footer{margin-top:28px;padding:16px;font-size:.92rem;color:var(--muted);text-align:center;border-top:1px solid var(--border)}
-.board-wrapper {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* iOS */
-}
 
-.board {
-  display: grid;
-  grid-template-columns: repeat(4, 150px); /* 每格固定 150px */
-  gap: 10px;
-  width: max-content;   /* 讓 grid 根據內容自動撐開寬度 */
-  min-width: 100%;      /* 至少等於螢幕寬 */
-}
 
 
 </style>
@@ -102,83 +100,74 @@
 
       <div class="grid cols-2">
         <!-- Bingo Board -->
-        <div class="bingo panel">
-          <div class="bingo-title">
-            <h2>4×4 Bingo｜完成的就打勾 ✅</h2>
-            <div class="stats">
-              <span class="pill">已勾：<b id="checkedCount">0</b>/16</span>
-              <span class="pill good">連線：<b id="linesCount">0</b>/10</span>
-            </div>
-          </div>
-          <div class="board-wrapper">
-            <div class="board">
-            <!-- 16 cells -->
-            <!-- 1 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 教授的網站首頁</div>
-            </label>
-            <!-- 2 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 教授的個人資料介紹小天地</div>
-            </label>
-            <!-- 3 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>使用過</b> 任中聊天室 1.0<br></div>
-            </label>
-            <!-- 4 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>bonus：</b> 親自拿過任中的名片</div>
-            </label>
-            <!-- 5 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>使用過</b> 任中聊天室 2.0</div>
-            </label>
-            <!-- 6 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>仔細讀過</b> 教授幫你裝一波</div>
-            </label>
-            <!-- 7 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>bonus：</b> 知道任中的五大原則（五個不）</div>
-            </label>
-            <!-- 8 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 任中教授的虛擬貨幣投資計畫</div>
-            </label>
-            <!-- 9 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 任中相關的網路新聞（≥1 篇）</div>
-            </label>
-            <!-- 10 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>bonus：</b> 知道任中的小編是誰</div>
-            </label>
-            <!-- 11 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看完</b> 任中相關的電視新聞影片</div>
-            </label>
-            <!-- 12 -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 任中宣傳</b>不同意開學</b>的公投廣告</div>
-            </label>
-            <!-- 13 bonus -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>bonus：</b> 親自去過任中辦公室討論專題</div>
-            </label>
-            <!-- 14 bonus -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 任中發的重要時程（≥3 則）</div>
-            </label>
-            <!-- 15 bonus -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看過</b> 任中發的系上趣聞（≥1 則）</div>
-            </label>
-            <!-- 16 bonus -->
-            <label class="cell"><input type="checkbox" />
-              <div><b>看完</b> 任中 AI 唱歌影片</div>
-            </label>
-          </div>
-            </div>
+        <div class="board-wrapper">
+  <div class="board">
+    <!-- 1 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 教授的網站首頁</div>
+    </label>
+    <!-- 2 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 教授的個人資料介紹小天地</div>
+    </label>
+    <!-- 3 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>使用過</b> 任中聊天室 1.0</div>
+    </label>
+    <!-- 4 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>bonus：</b> 親自拿過任中的名片</div>
+    </label>
+    <!-- 5 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>使用過</b> 任中聊天室 2.0</div>
+    </label>
+    <!-- 6 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>仔細讀過</b> 教授幫你裝一波</div>
+    </label>
+    <!-- 7 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>bonus：</b> 知道任中的五大原則（五個不）</div>
+    </label>
+    <!-- 8 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 任中教授的虛擬貨幣投資計畫</div>
+    </label>
+    <!-- 9 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 任中相關的網路新聞（≥1 篇）</div>
+    </label>
+    <!-- 10 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>bonus：</b> 知道任中的小編是誰</div>
+    </label>
+    <!-- 11 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看完</b> 任中相關的電視新聞影片</div>
+    </label>
+    <!-- 12 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 任中宣傳不同意開學的公投廣告</div>
+    </label>
+    <!-- 13 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>bonus：</b> 親自去過任中辦公室討論專題</div>
+    </label>
+    <!-- 14 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 任中發的重要時程（≥3 則）</div>
+    </label>
+    <!-- 15 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看過</b> 任中發的系上趣聞（≥1 則）</div>
+    </label>
+    <!-- 16 -->
+    <label class="cell"><input type="checkbox" />
+      <div><b>看完</b> 任中 AI 唱歌影片</div>
+    </label>
+  </div>
+</div>
 
           <div class="divider" style="margin:16px 0"></div>
 
@@ -348,6 +337,7 @@
 </script>
 </body>
 </html>
+
 
 
 
