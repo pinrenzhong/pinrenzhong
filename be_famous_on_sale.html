@@ -39,7 +39,12 @@
   .panel{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 8px 28px rgba(0,0,0,.25)}
   .grid{display:grid;gap:14px}
   @media (min-width:900px){ .grid.cols-2{grid-template-columns:1.1fr .9fr} }
+  .bingo-scroll {
+  overflow-x: auto;             /* 超出寬度時可左右捲動 */
+  -webkit-overflow-scrolling: touch; /* iOS 平滑捲動 */
+}
   .bingo{
+    min-width: 650px;   
     background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px
   }
   .bingo-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
@@ -105,6 +110,7 @@
 
       <div class="grid cols-2">
         <!-- Bingo Board -->
+        <div class="bingo-scroll">
         <div class="bingo panel">
           <div class="bingo-title">
             <h2>4×4 Bingo｜完成的就打勾 ✅</h2>
@@ -112,6 +118,7 @@
               <span class="pill">已勾：<b id="checkedCount">0</b>/16</span>
               <span class="pill good">連線：<b id="linesCount">0</b>/10</span>
             </div>
+          </div>
           </div>
           <div class="board" id="board">
             <!-- 16 cells -->
@@ -349,4 +356,5 @@
 </script>
 </body>
 </html>
+
 
