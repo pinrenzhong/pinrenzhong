@@ -76,16 +76,18 @@
   ul{margin:.3em 0 .8em;padding-left:1.1em}
   .footer{margin-top:28px;padding:16px;font-size:.92rem;color:var(--muted);text-align:center;border-top:1px solid var(--border)}
 .board-wrapper {
-  overflow-x: auto;                /* 超過寬度時橫向捲動 */
-  -webkit-overflow-scrolling: touch; /* iOS 平滑 */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* iOS */
 }
 
 .board {
   display: grid;
-  grid-template-columns: repeat(4, minmax(150px, 1fr)); 
+  grid-template-columns: repeat(4, 150px); /* 每格固定 150px */
   gap: 10px;
-  min-width: 500px;   /* 保證小螢幕時 > 螢幕寬，觸發橫向捲動 */
+  width: max-content;   /* 讓 grid 根據內容自動撐開寬度 */
+  min-width: 100%;      /* 至少等於螢幕寬 */
 }
+
 
 </style>
 </head>
@@ -346,6 +348,7 @@
 </script>
 </body>
 </html>
+
 
 
 
