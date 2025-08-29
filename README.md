@@ -30,11 +30,7 @@
 - <a href="https://pinrenzhong.github.io/pinrenzhong/學長姐out.html"> 學長姐Out？清大教授推「學術級裝一波」服務 校園社群瘋狂熱議</a>
 
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=bEE-Exqw3lQ">
-    <img src="https://img.youtube.com/vi/bEE-Exqw3lQ/0.jpg" alt="Watch the video" width="600">
-  </a>
-</p>
+
 
 
 
