@@ -75,6 +75,18 @@
   h2{font-size:1.15rem;margin:1.2em 0 .5em}
   ul{margin:.3em 0 .8em;padding-left:1.1em}
   .footer{margin-top:28px;padding:16px;font-size:.92rem;color:var(--muted);text-align:center;border-top:1px solid var(--border)}
+  .board-wrapper {
+  overflow-x: auto;     /* 橫向捲動 */
+  -webkit-overflow-scrolling: touch; /* iOS 平滑滾動 */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 150px); /* 固定格子寬度 */
+  gap: 10px;
+  min-width: 600px;     /* 保證總寬度 > 螢幕時可以捲動 */
+}
+
 </style>
 </head>
 <body>
@@ -96,7 +108,8 @@
               <span class="pill good">連線：<b id="linesCount">0</b>/10</span>
             </div>
           </div>
-          <div class="board" id="board">
+          <div class="board-wrapper">
+            <div class="board">
             <!-- 16 cells -->
             <!-- 1 -->
             <label class="cell"><input type="checkbox" />
@@ -163,6 +176,7 @@
               <div><b>看完</b> 任中 AI 唱歌影片</div>
             </label>
           </div>
+            </div>
 
           <div class="divider" style="margin:16px 0"></div>
 
@@ -332,4 +346,5 @@
 </script>
 </body>
 </html>
+
 
