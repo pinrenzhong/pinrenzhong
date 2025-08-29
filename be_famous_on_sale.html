@@ -94,7 +94,6 @@
   .footer{margin-top:28px;padding:16px;font-size:.92rem;color:var(--muted);text-align:center;border-top:1px solid var(--border)}
 </style>
 </head>
-
 <body>
   <main class="wrap">
     <section class="hero">
@@ -106,80 +105,87 @@
 
       <div class="grid cols-2">
         <!-- Bingo Board -->
-        <div class="board-wrapper">
-  <div class="board">
-    <!-- 1 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 教授的網站首頁</div>
-    </label>
-    <!-- 2 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 教授的個人資料介紹小天地</div>
-    </label>
-    <!-- 3 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>使用過</b> 任中聊天室 1.0</div>
-    </label>
-    <!-- 4 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>bonus：</b> 親自拿過任中的名片</div>
-    </label>
-    <!-- 5 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>使用過</b> 任中聊天室 2.0</div>
-    </label>
-    <!-- 6 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>仔細讀過</b> 教授幫你裝一波</div>
-    </label>
-    <!-- 7 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>bonus：</b> 知道任中的五大原則（五個不）</div>
-    </label>
-    <!-- 8 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 任中教授的虛擬貨幣投資計畫</div>
-    </label>
-    <!-- 9 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 任中相關的網路新聞（≥1 篇）</div>
-    </label>
-    <!-- 10 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>bonus：</b> 知道任中的小編是誰</div>
-    </label>
-    <!-- 11 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看完</b> 任中相關的電視新聞影片</div>
-    </label>
-    <!-- 12 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 任中宣傳不同意開學的公投廣告</div>
-    </label>
-    <!-- 13 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>bonus：</b> 親自去過任中辦公室討論專題</div>
-    </label>
-    <!-- 14 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 任中發的重要時程（≥3 則）</div>
-    </label>
-    <!-- 15 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看過</b> 任中發的系上趣聞（≥1 則）</div>
-    </label>
-    <!-- 16 -->
-    <label class="cell"><input type="checkbox" />
-      <div><b>看完</b> 任中 AI 唱歌影片</div>
-    </label>
-  </div>
-</div>
+        <div class="bingo panel">
+          <div class="bingo-title">
+            <h2>4×4 Bingo｜完成的就打勾 ✅</h2>
+            <div class="stats">
+              <span class="pill">已勾：<b id="checkedCount">0</b>/16</span>
+              <span class="pill good">連線：<b id="linesCount">0</b>/10</span>
+            </div>
+          </div>
+          <div class="board" id="board">
+            <!-- 16 cells -->
+            <!-- 1 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 教授的網站首頁</div>
+            </label>
+            <!-- 2 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 教授的個人資料介紹小天地</div>
+            </label>
+            <!-- 3 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>使用過</b> 任中聊天室 1.0<br></div>
+            </label>
+            <!-- 4 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>bonus：</b> 親自拿過任中的名片</div>
+            </label>
+            <!-- 5 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>使用過</b> 任中聊天室 2.0</div>
+            </label>
+            <!-- 6 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>仔細讀過</b> 教授幫你裝一波</div>
+            </label>
+            <!-- 7 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>bonus：</b> 知道任中的五大原則（五個不）</div>
+            </label>
+            <!-- 8 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 任中教授的虛擬貨幣投資計畫</div>
+            </label>
+            <!-- 9 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 任中相關的網路新聞（≥1 篇）</div>
+            </label>
+            <!-- 10 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>bonus：</b> 知道任中的小編是誰</div>
+            </label>
+            <!-- 11 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看完</b> 任中相關的電視新聞影片</div>
+            </label>
+            <!-- 12 -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 任中宣傳開學公投的廣告</div>
+            </label>
+            <!-- 13 bonus -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>bonus：</b> 親自去過任中辦公室討論專題</div>
+            </label>
+            <!-- 14 bonus -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 任中發的重要時程（≥3 則）</div>
+            </label>
+            <!-- 15 bonus -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看過</b> 任中發的系上趣聞（≥1 則）</div>
+            </label>
+            <!-- 16 bonus -->
+            <label class="cell"><input type="checkbox" />
+              <div><b>看完</b> 任中 AI 唱歌影片</div>
+            </label>
+          </div>
 
           <div class="divider" style="margin:16px 0"></div>
 
           <div class="grid" style="gap:10px">
             <div class="panel" style="background:transparent;border:1px dashed var(--border)">
-              <b>折抵金規則（無/有追蹤 懸缺實驗室 IG）</b>
+              <b>折抵金規則（有/無追蹤 懸缺實驗室 IG）</b>
               <p class="notice" style="margin:.4em 0 0">
                 連線 <b>1～10</b> 條 → 可折抵 <b id="amtWith">0</b> / <b id="amtWithout">0</b> 元（上限 4000/5000）
               </p>
@@ -253,7 +259,7 @@
           <li>看過 任中發的重要時程（至少三則）</li>
           <li><b>bonus–</b>親自去過任中的辦公室討論專題</li>
           <li>看過 任中發的系上趣聞（至少一則）</li>
-          <li>看過 任中宣傳不同意開學的公投廣告</li>
+          <li>看過 任中的名片</li>
           <li>看完 任中 AI 唱歌影片</li>
         </ul>
         <h2>投稿說明</h2>
@@ -343,14 +349,3 @@
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
