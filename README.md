@@ -16,6 +16,9 @@
 - 💰 [任中教授的虛擬貨幣投資計畫](https://pinrenzhong.github.io/pinrenzhong/%E5%8D%80%E5%A1%8A%E9%8D%8A%E4%BB%8B%E7%B4%B9.html)  
   頁面尚無具體計畫，需要大家贊助，才有經費可以來投資！贊助方式請洽 GitHub 小編。
 
+- <a herf = "https://www.youtube.com/@pinrenzhong">🎬 聘任中教授的youtube帳號</a><br>
+  歡迎大家訂閱喔~
+
 ---
 
 ## 🗞️ 相關新聞 News
