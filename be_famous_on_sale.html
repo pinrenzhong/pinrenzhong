@@ -185,7 +185,7 @@
 
           <div class="grid" style="gap:10px">
             <div class="panel" style="background:transparent;border:1px dashed var(--border)">
-              <b>折抵金規則（有/無追蹤 懸缺實驗室 IG）</b>
+              <b>折抵金規則（無/有追蹤 懸缺實驗室 IG）</b>
               <p class="notice" style="margin:.4em 0 0">
                 連線 <b>1～10</b> 條 → 可折抵 <b id="amtWith">0</b> / <b id="amtWithout">0</b> 元（上限 4000/5000）
               </p>
@@ -337,7 +337,7 @@
     const text =
 `我的「教授幫你裝一波」Bingo 勾選：${checked.join(', ')}
 連線：${lines} 條
-可折抵（有追蹤/無追蹤）：${withAmt} / ${withoutAmt} 元
+可折抵（無追蹤/有追蹤）：${withAmt} / ${withoutAmt} 元
 #聘任中教授 #懸缺實驗室 #Bingo挑戰`;
     navigator.clipboard.writeText(text).then(()=>alert('已複製成果文字，快去 IG 傳給任中！'));
   });
@@ -349,3 +349,4 @@
 </script>
 </body>
 </html>
+
