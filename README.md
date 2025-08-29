@@ -11,8 +11,7 @@
 
 - 👶 清大學生看這裡！！  
   這年頭學長姊已不再夠看，八卦也無法支撐場面，這裡提供 👉 [教授幫你裝一波](https://pinrenzhong.github.io/pinrenzhong/be_famous.html)，讓你成為師生都難以忽視的存在！
-  
-  🔥🔥🔥[好康來啦！！【教授幫你裝一波】折抵金大放送](https://pinrenzhong.github.io/pinrenzhong/be_famous_on_sale.html)
+    🔥🔥🔥[好康來啦！！【教授幫你裝一波】折抵金大放送](https://pinrenzhong.github.io/pinrenzhong/be_famous_on_sale.html)
 
 - 💰 [任中教授的虛擬貨幣投資計畫](https://pinrenzhong.github.io/pinrenzhong/%E5%8D%80%E5%A1%8A%E9%8D%8A%E4%BB%8B%E7%B4%B9.html)  
   頁面尚無具體計畫，需要大家贊助，才有經費可以來投資！贊助方式請洽 GitHub 小編。
